@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: NovoDialogo
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueContainer
+  Speakers:
+  - {fileID: 11400000, guid: 5941ec4fb247caf40a277edab3ca3141, type: 2}
+  - {fileID: 11400000, guid: 9b235bbb37f486748b9815ee76cfb1a4, type: 2}
+  NodeLinks:
+  - BaseNodeGuid: b9cf6f9e-4197-4599-a1a5-dd5a68a6611b
+    PortName: Escolha...
+    TargetNodeGuid: 112abb57-d252-468a-90e2-144d7a6da073
+  - BaseNodeGuid: b9cf6f9e-4197-4599-a1a5-dd5a68a6611b
+    PortName: Escolha...
+    TargetNodeGuid: 112abb57-d252-468a-90e2-144d7a6da073
+  - BaseNodeGuid: b9cf6f9e-4197-4599-a1a5-dd5a68a6611b
+    PortName: Escolha...
+    TargetNodeGuid: 112abb57-d252-468a-90e2-144d7a6da073
+  - BaseNodeGuid: 112abb57-d252-468a-90e2-144d7a6da073
+    PortName: 
+    TargetNodeGuid: 920d39f3-d9a3-4320-9c03-bfd7075cb95d
+  DialogueNodeData:
+  - Guid: b9cf6f9e-4197-4599-a1a5-dd5a68a6611b
+    SpeakerIndex: 0
+    DialogueText: Eae?
+    Position: {x: 93, y: 129}
+  - Guid: 112abb57-d252-468a-90e2-144d7a6da073
+    SpeakerIndex: 1
+    DialogueText: 'HA HA HA HA '
+    Position: {x: 431, y: 156}
+  - Guid: 920d39f3-d9a3-4320-9c03-bfd7075cb95d
+    SpeakerIndex: 1
+    DialogueText: ' EAE '
+    Position: {x: 743, y: 156}

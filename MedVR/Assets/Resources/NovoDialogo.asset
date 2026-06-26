@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: NovoDialogo
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueContainer
+  Speakers:
+  - {fileID: 0}
+  NodeLinks:
+  - BaseNodeGuid: 37ff2d5e-1e05-4ecb-a5c4-747b7c4052ef
+    PortName: Test 1
+    TargetNodeGuid: 25578e14-f6ae-4f90-9639-d872e32bba59
+  - BaseNodeGuid: 37ff2d5e-1e05-4ecb-a5c4-747b7c4052ef
+    PortName: Test 2
+    TargetNodeGuid: 25578e14-f6ae-4f90-9639-d872e32bba59
+  - BaseNodeGuid: 37ff2d5e-1e05-4ecb-a5c4-747b7c4052ef
+    PortName: Test 3
+    TargetNodeGuid: 25578e14-f6ae-4f90-9639-d872e32bba59
+  DialogueNodeData:
+  - Guid: 37ff2d5e-1e05-4ecb-a5c4-747b7c4052ef
+    SpeakerIndex: 0
+    DialogueText: "Ol\xE1 tudo bme?"
+    Position: {x: -48, y: 24}
+  - Guid: 25578e14-f6ae-4f90-9639-d872e32bba59
+    SpeakerIndex: 0
+    DialogueText: Some daqui
+    Position: {x: 284, y: 40}

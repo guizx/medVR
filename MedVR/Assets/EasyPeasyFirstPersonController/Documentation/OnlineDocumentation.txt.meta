@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e00542d0ee9600e4db68685debc6fe93
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 317073
+  packageName: Easy Peasy First Person Controller
+  packageVersion: 1.2
+  assetPath: Assets/EasyPeasyFirstPersonController/Documentation/OnlineDocumentation.txt
+  uploadId: 867768
