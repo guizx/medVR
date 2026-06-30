@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad4993125e3d2714da38b8ed5cfdc510
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Scripts/Utility/DeleteOnStart.cs
+  uploadId: 827986

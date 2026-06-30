@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b7a91e7c5189b6b4d98d01940843f555
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Randomizers/Randomizer_Male.asset
+  uploadId: 827986

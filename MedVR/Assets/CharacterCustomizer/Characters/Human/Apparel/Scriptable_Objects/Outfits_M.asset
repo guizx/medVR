@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b2beb0614b4924f92136bb360094a6, type: 3}
+  m_Name: Outfits_M
+  m_EditorClassIdentifier: 
+  Outfits:
+  - OutfitName: Formal1
+    OutfitOptions:
+    - Options:
+      - Suit_Jacket_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Suit_Pants_01
+      DefaultChance: 0
+      MatchMaterials: 1
+      IndexToMatch: 0
+    - Options:
+      - Dress_Shoes_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Formal2
+    OutfitOptions:
+    - Options:
+      - Suit_Jacket_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Suit_Pants_01
+      - Jeans_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Sandals_01
+      - Sneaker_02
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual1
+    OutfitOptions:
+    - Options:
+      - Casual_Shirt_01
+      - Polo_Shirt_01
+      - TShirt_01
+      - Hoodie_01
+      - Tank_Top_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Suit_Pants_01
+      - Jeans_01
+      - Jeans_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Dress_Shoes_01
+      - Sneaker_01
+      - Sneaker_02
+      - Boots_01
+      - Sandals_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual2
+    OutfitOptions:
+    - Options:
+      - Casual_Shirt_01
+      - Shirt_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Suit_Pants_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Dress_Shoes_01
+      - Sneaker_01
+      - Sneaker_02
+      - Boots_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual3
+    OutfitOptions:
+    - Options:
+      - Jacket_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Jeans_01
+      - Jeans_01
+      - Jeans_01
+      - Cargo_Pants_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Boots_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual4
+    OutfitOptions:
+    - Options:
+      - Tank_Top_01
+      - Hoodie_01
+      - TShirt_01
+      - Casual_Shirt_01
+      - Casual_Shirt_01
+      - Polo_Shirt_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Jeans_01_Blue
+      - Jeans_01_Blue
+      - Jeans_01_Black
+      - Jeans_01_Black
+      - Cargo_Pants_01
+      - Swimming_Trunks_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Sandals_01
+      - Sneaker_02
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options:
+      - Glasses
+      - Sunglasses
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0

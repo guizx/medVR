@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5bac15eafbc6dba45804c271a5f45aa5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Apparel/Scriptable_Objects/Outfits_M.asset
+  uploadId: 827986

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8a5762fe1d52a214c89d6f7150f7e80a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Scripts/Apparel_Menu.cs
+  uploadId: 827986

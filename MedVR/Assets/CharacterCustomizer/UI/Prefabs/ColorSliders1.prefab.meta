@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8c4eb5532eb626648a191f77d01cea92
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/ColorSliders1.prefab
+  uploadId: 827986

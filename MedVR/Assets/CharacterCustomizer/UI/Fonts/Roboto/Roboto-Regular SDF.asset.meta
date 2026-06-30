@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8951a3519a29f7249b776f97a4f89bad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Fonts/Roboto/Roboto-Regular SDF.asset
+  uploadId: 827986

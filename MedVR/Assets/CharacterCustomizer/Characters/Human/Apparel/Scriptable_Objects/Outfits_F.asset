@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b2beb0614b4924f92136bb360094a6, type: 3}
+  m_Name: Outfits_F
+  m_EditorClassIdentifier: 
+  Outfits:
+  - OutfitName: Formal1
+    OutfitOptions:
+    - DefaultName: Bra_01
+      Options:
+      - Shirt_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Underwear_01
+      Options:
+      - Jeans_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Footwear_Default
+      Options:
+      - Dress_Shoes
+      - High_Heels_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Headwear_Default
+      Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Accessory_Default
+      Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual1
+    OutfitOptions:
+    - DefaultName: Bra_01
+      Options:
+      - Shirt_01
+      - TShirt_01
+      - Hoodie_01
+      - Sleeveless_01
+      - Sweater_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Underwear_01
+      Options:
+      - Jeans_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Footwear_Default
+      Options:
+      - Dress_Shoes_01
+      - Sneaker_01
+      - Sneaker_02
+      - Boots_01
+      - Sandals_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Headwear_Default
+      Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Accessory_Default
+      Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual2
+    OutfitOptions:
+    - DefaultName: Bra_01
+      Options:
+      - Crop_Top_01
+      - TShirt_01
+      - Shirt_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Underwear_01
+      Options:
+      - Jeans_01
+      - Jeans_Baggy_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Footwear_Default
+      Options:
+      - Dress_Shoes_01
+      - Sneaker_01
+      - Sneaker_02
+      - Boots_01
+      - Sandals_01
+      - Ankle_Boots_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Headwear_Default
+      Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Accessory_Default
+      Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0
+  - OutfitName: Casual3
+    OutfitOptions:
+    - DefaultName: Bra_01
+      Options:
+      - Leather_Jacket_01
+      - Denim_Jacket_01
+      - Sweater_01
+      - Hoodie_01
+      - Vest_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Underwear_01
+      Options:
+      - Jeans_01
+      - Jeans_Baggy_01
+      - Jogging_Pants_01
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Footwear_Default
+      Options:
+      - Dress_Shoes
+      - Sneaker_01
+      - Sneaker_02
+      - Boots_01
+      - Sandals_01
+      - Ankle_Boots
+      DefaultChance: 0
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Headwear_Default
+      Options:
+      - Glasses_01
+      - Sunglasses_01
+      - Aviator_Glasses
+      DefaultChance: 0.9
+      MatchMaterials: 0
+      IndexToMatch: 0
+    - DefaultName: Accessory_Default
+      Options: []
+      DefaultChance: 1
+      MatchMaterials: 0
+      IndexToMatch: 0

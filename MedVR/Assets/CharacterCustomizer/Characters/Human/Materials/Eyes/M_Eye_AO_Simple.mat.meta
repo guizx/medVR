@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6c9e77a96de3bf47bc6e030f9198ad1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Materials/Eyes/M_Eye_AO_Simple.mat
+  uploadId: 827986

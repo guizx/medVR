@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cbaf2e68c40e3064189a56ec473c24bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Scripts/scrObj_Outfits.cs
+  uploadId: 827986

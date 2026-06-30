@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c2dbcea05805d8742be8b1fa45872bd1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/ThirdPartyNotices.txt
+  uploadId: 827986

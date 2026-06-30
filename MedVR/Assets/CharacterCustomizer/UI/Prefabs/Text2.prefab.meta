@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 542bd8f6b567e7e4c966e4274120807a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/Text2.prefab
+  uploadId: 827986

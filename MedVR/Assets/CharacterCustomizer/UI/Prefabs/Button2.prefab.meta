@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc49f165eeb11a3438ebdc4e61485aea
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/Button2.prefab
+  uploadId: 827986

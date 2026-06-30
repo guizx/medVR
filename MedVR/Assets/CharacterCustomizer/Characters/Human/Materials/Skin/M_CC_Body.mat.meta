@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 588f791e16a40214db654e76d2ddcc4b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Materials/Skin/M_CC_Body.mat
+  uploadId: 827986

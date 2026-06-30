@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51a151e607e45034c90d9e3b56a5d44e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Hair/Scriptable_Objects/Eyebrows_Male.asset
+  uploadId: 827986

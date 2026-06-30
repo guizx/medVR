@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d2c2d7830608c47b7968c3e9e9a239, type: 3}
+  m_Name: Eyebrows_Female
+  m_EditorClassIdentifier: 
+  Hairstyles:
+  - Name: Eyebrows_Default
+    Mesh: {fileID: 0}
+    ShadowMap: {fileID: 2800000, guid: 1270350247c551c459dd9a3499de08a6, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  - Name: Eyebrows_02
+    Mesh: {fileID: 8593836377190214568, guid: d433e0f511dd0744c94313e1c62851db, type: 3}
+    ShadowMap: {fileID: 2800000, guid: 2e4d815a13e156943910b95617f77866, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  SkinShadowMapProperty:
+    propertyName: _Eyebrow_Shadow_Map
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: 0
+    meshTag: Head
+  HairTintProperty:
+    propertyName: 
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: 0
+    meshTag: 

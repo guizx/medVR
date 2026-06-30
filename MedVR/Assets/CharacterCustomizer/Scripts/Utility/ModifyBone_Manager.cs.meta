@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 809ba6e8da7306649bb856682a915b13
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Scripts/Utility/ModifyBone_Manager.cs
+  uploadId: 827986

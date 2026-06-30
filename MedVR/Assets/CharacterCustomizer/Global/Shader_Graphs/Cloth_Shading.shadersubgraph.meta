@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e169c4765be74244087789057b28668d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Global/Shader_Graphs/Cloth_Shading.shadersubgraph
+  uploadId: 827986

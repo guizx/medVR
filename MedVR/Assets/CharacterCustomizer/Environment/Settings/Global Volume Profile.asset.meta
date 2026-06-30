@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 020a11a760953604bad0f22ace6b0072
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Environment/Settings/Global Volume Profile.asset
+  uploadId: 827986

@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94ce67e1680d0e4db34aeb1f71e6c9a, type: 3}
+  m_Name: LowerBody_M
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: Jeans_01
+    Mesh: {fileID: 420179978917182511, guid: 95ad5b8a4a1de7f4bad399317bb621c4, type: 3}
+    DisplayName: Jeans
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: 8f156290746134c4d87613d57187eb39, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 2100000, guid: c6a632bd82f4bb84ea47380762723706,
+          type: 2}
+        MainTint: {r: 1, g: 1, b: 1, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: dfc70c36790bfcc4eba38472de6668ba, type: 3}
+    - Label: Light blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 2100000, guid: c6a632bd82f4bb84ea47380762723706,
+          type: 2}
+        MainTint: {r: 1.5166377, g: 1.5166377, b: 1.5166377, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: ee42771aa74a841409d3f0bdfa4df060, type: 3}
+    - Label: Dark blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 2100000, guid: c6a632bd82f4bb84ea47380762723706,
+          type: 2}
+        MainTint: {r: 0.7980367, g: 0.84384423, b: 0.8726516, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: d8918d8fea297ab4e99b28bdd71c2961, type: 3}
+    - Label: Gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 2100000, guid: d7ff428b8ed38f4458d97f0139311bbd,
+          type: 2}
+        MainTint: {r: 0.9125621, g: 0.9125621, b: 0.9125621, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 9b029891d7ab7eb4499e7042e07e84bc, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 2100000, guid: d7ff428b8ed38f4458d97f0139311bbd,
+          type: 2}
+        MainTint: {r: 0.5370987, g: 0.5370987, b: 0.5370987, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 662059f2e99981f45bedd88fa8c4473a, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 12
+  - Name: Suit_Pants_01
+    Mesh: {fileID: 483392607119038380, guid: ccb91f6e9b6ed044f9252ec38be0f2b4, type: 3}
+    DisplayName: Suit pants
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: 8f156290746134c4d87613d57187eb39, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.8202688, g: 0.8105593, b: 0.84464955, a: 1}
+        TintR: {r: 0.28857303, g: 0.28857303, b: 0.28857303, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 630469272dc1b384f8b0068b557c1941, type: 3}
+    - Label: Blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.3898536, g: 0.47572553, b: 0.67753977, a: 1}
+        TintR: {r: 0.41088474, g: 0.3742746, b: 0.3371829, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 63341cba1ff324646b4d7d8f2b83a643, type: 3}
+    - Label: Navy
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.33096722, g: 0.36287624, b: 0.45151353, a: 1}
+        TintR: {r: 0.41088474, g: 0.3742746, b: 0.3371829, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 5cf8ca8a05682144db32d9fd630da6e1, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.36456725, g: 0.36263183, b: 0.35674214, a: 1}
+        TintR: {r: 0.24780047, g: 0.24640563, b: 0.24215287, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: b9c14d390c8d0a649bdd3587ab83e77a, type: 3}
+    - Label: Dark gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.5319277, g: 0.52922565, b: 0.52097964, a: 1}
+        TintR: {r: 0.24780047, g: 0.24640563, b: 0.24215287, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: f03447c441b32e044be7e2a530be70c6, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 12
+  - Name: Cargo_Pants_01
+    Mesh: {fileID: 3599965920795244806, guid: 6d2e8478b8317604d9a43dc398e023df, type: 3}
+    DisplayName: Cargo pants
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: 8f156290746134c4d87613d57187eb39, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Camo UCP
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.8272456, g: 0.7948689, b: 0.72376615, a: 1}
+        TintR: {r: 0.8272456, g: 0.7948689, b: 0.72376615, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 2800000, guid: 46fa8dea476e9ed45a28654c93d4ca49, type: 3}
+      Icon: {fileID: 21300000, guid: d73e99dde049cb84cb117263995a4319, type: 3}
+    - Label: Camo Woodland
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.8272456, g: 0.7948689, b: 0.72376615, a: 1}
+        TintR: {r: 0.8272456, g: 0.7948689, b: 0.72376615, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 2800000, guid: be8bcf35e6beee446b37328649f96a49, type: 3}
+      Icon: {fileID: 21300000, guid: aa6da0423ddfb0844a7f23be9bb3525e, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.27730414, g: 0.27730414, b: 0.27730414, a: 1}
+        TintR: {r: 0.48802584, g: 0.46296495, b: 0.43971807, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: ac57dbefe62d9164ead3480601064d75, type: 3}
+    - Label: Gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.45151353, g: 0.44918036, b: 0.44206446, a: 1}
+        TintR: {r: 0.66985255, g: 0.644531, b: 0.60441977, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 2e9db8b5db13130428a06a266291aa6c, type: 3}
+    - Label: Beige
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9021467, g: 0.809971, b: 0.67130244, a: 1}
+        TintR: {r: 0.9099731, g: 0.9099731, b: 0.9099731, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: e1e3d0e548549a64ba90e6318a9b53b3, type: 3}
+    - Label: Green
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.5221166, g: 0.56205714, b: 0.45929086, a: 1}
+        TintR: {r: 0.7909143, g: 0.7399944, b: 0.65475, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: b85ae8300ff17fb49be2d5f3c38abb82, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 12
+  - Name: Swimming_Trunks_01
+    Mesh: {fileID: 3308812408151026951, guid: 016a1a5a112ca314aa29354f33912e4d, type: 3}
+    DisplayName: Swimming trunks
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: a11e00bd88976f84089808214d63ec50, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0, g: 0.41755682, b: 0.4937842, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 0.264712, g: 0.32505456, b: 0.39618167, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: a9f28c86c87d17a4d8c62d50a142fe99, type: 3}
+    - Label: Blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.31901217, g: 0.5490708, b: 0.75557584, a: 1}
+        TintR: {r: 0.31901217, g: 0.5490708, b: 0.75557584, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: c76220925c5662944a9be0111ee421dd, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.28857303, g: 0.28699067, b: 0.2821657, a: 1}
+        TintR: {r: 0.28857303, g: 0.28699067, b: 0.2821657, a: 1}
+        TintG: {r: 0.89951754, g: 0.89951754, b: 0.89951754, a: 1}
+        TintB: {r: 0.89951754, g: 0.89951754, b: 0.89951754, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: ebe1e537091fb0a41bf9bba39f96e86d, type: 3}
+    - Label: Red
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.83600706, g: 0.1820252, b: 0.23671275, a: 1}
+        TintR: {r: 0, g: 0, b: 0, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 0, g: 0, b: 0, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: b68a4c68acea2aa44ab50ef400a498a8, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 13
+  - Name: Underwear_01
+    Mesh: {fileID: 5824614341831685662, guid: b583645072f534b44bcab0f9ce2f1c7c, type: 3}
+    DisplayName: Underwear
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: a11e00bd88976f84089808214d63ec50, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Gray
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9907858, g: 0.9907858, b: 0.9907858, a: 1}
+        TintR: {r: 0.9907858, g: 0.9907858, b: 0.9907858, a: 1}
+        TintG: {r: 0.9907858, g: 0.9907858, b: 0.9907858, a: 1}
+        TintB: {r: 0.68134105, g: 0.68134105, b: 0.68134105, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 8288e47e9bb89bb4797ab17664726d04, type: 3}
+    - Label: Navy
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9907858, g: 0.9907858, b: 0.9907858, a: 1}
+        TintR: {r: 0.8588005, g: 0.8588005, b: 0.8588005, a: 1}
+        TintG: {r: 0.9907858, g: 0.9907858, b: 0.9907858, a: 1}
+        TintB: {r: 0.29189536, g: 0.39459392, b: 0.4937842, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: e8e05e1dea6d0b844b947ce3c09f6380, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 16
+  SkinMaskProperty:
+    propertyName: _LowerBody_Mask
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: 0
+    meshTag: Body
+  Label: Lower Body

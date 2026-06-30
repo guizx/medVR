@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7f53815473a226f4ab8d64504846647a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/UIs/UI_CC.prefab
+  uploadId: 827986

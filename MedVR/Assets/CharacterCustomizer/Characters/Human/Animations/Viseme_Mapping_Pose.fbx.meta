@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: 26fabf3a81cef0a4db77b66c5ca6647d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: sil
+  - first:
+      74: 2026363371865618204
+    second: PP
+  - first:
+      74: 7398187012673512093
+    second: FF
+  - first:
+      74: -2822028466769826005
+    second: TH
+  - first:
+      74: 1685676856931954210
+    second: DD
+  - first:
+      74: -6072740713726291550
+    second: kk
+  - first:
+      74: -8480470177635239038
+    second: CH
+  - first:
+      74: 381736380886046340
+    second: SS
+  - first:
+      74: -8103739045567978583
+    second: nn
+  - first:
+      74: 1229858190700494720
+    second: RR
+  - first:
+      74: -1667771502587031085
+    second: aa
+  - first:
+      74: -2752864260962967822
+    second: E
+  - first:
+      74: 6837054071940847188
+    second: ih
+  - first:
+      74: -7181401978718567748
+    second: oh
+  - first:
+      74: -7796136104609089230
+    second: ou
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sil
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CCMH_Body_Female
+        weight: 0
+      - path: CCMH_Head_Female
+        weight: 0
+      - path: CCMH_Teeth_Female
+        weight: 0
+      - path: root
+        weight: 0
+      - path: root/pelvis
+        weight: 0
+      - path: root/pelvis/pelvis_wt
+        weight: 0
+      - path: root/pelvis/pelvis_wt/butt_l
+        weight: 0
+      - path: root/pelvis/pelvis_wt/butt_r
+        weight: 0
+      - path: root/pelvis/spine_01
+        weight: 0
+      - path: root/pelvis/spine_01/spine_01_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_02_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_03_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_04_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_metacarpal_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_metacarpal_l/index_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_metacarpal_l/index_01_l/index_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_metacarpal_l/index_01_l/index_02_l/index_03_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_metacarpal_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_metacarpal_l/middle_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_metacarpal_l/middle_01_l/middle_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_metacarpal_l/middle_01_l/middle_02_l/middle_03_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_metacarpal_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_metacarpal_l/pinky_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_metacarpal_l/pinky_01_l/pinky_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_metacarpal_l/pinky_01_l/pinky_02_l/pinky_03_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_metacarpal_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_metacarpal_l/ring_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_metacarpal_l/ring_01_l/ring_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_metacarpal_l/ring_01_l/ring_02_l/ring_03_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l/thumb_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l/thumb_02_l/thumb_03_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/lowerarm_twist_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/lowerarm_l/lowerarm_twist_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/upperarm_twist_01_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_l/upperarm_l/upperarm_twist_02_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_metacarpal_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_metacarpal_r/index_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_metacarpal_r/index_01_r/index_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_metacarpal_r/index_01_r/index_02_r/index_03_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_metacarpal_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_metacarpal_r/middle_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_metacarpal_r/middle_01_r/middle_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_metacarpal_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_metacarpal_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_metacarpal_r/pinky_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_metacarpal_r/pinky_01_r/pinky_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_metacarpal_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_metacarpal_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_metacarpal_r/ring_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_metacarpal_r/ring_01_r/ring_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_metacarpal_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r/thumb_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/lowerarm_twist_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/lowerarm_r/lowerarm_twist_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/upperarm_twist_01_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/clavicle_r/upperarm_r/upperarm_twist_02_r
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_01_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/brow_center
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/brow_inner_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/brow_inner_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/brow_outer_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/brow_outer_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/cheek_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/cheek_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_l_inner
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_l_lower
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_l_outer
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_l_upper
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_r_inner
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_r_lower
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_r_outer
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eye_r_upper
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eyelid_lower_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eyelid_lower_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eyelid_upper_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/eyelid_upper_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/jaw
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/jaw/jaw_back
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/jaw/tongue_01
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_lower_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_lower_l/lip_lower_outside_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_lower_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_lower_r/lip_lower_outside_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_upper_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_upper_l/lip_upper_outside_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_upper_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/lip_upper_r/lip_upper_outside_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/mouth_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/mouth_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/nose_l
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/head/facial_root/nose_r
+        weight: 1
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/neck_01/neck_02/neck_02_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/spine_05_wt
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/spine_05_wt/breast_l
+        weight: 0
+      - path: root/pelvis/spine_01/spine_02/spine_03/spine_04/spine_05/spine_05_wt/breast_r
+        weight: 0
+      - path: root/pelvis/thigh_l
+        weight: 0
+      - path: root/pelvis/thigh_l/calf_l
+        weight: 0
+      - path: root/pelvis/thigh_l/calf_l/calf_twist_01_l
+        weight: 0
+      - path: root/pelvis/thigh_l/calf_l/calf_twist_02_l
+        weight: 0
+      - path: root/pelvis/thigh_l/calf_l/foot_l
+        weight: 0
+      - path: root/pelvis/thigh_l/calf_l/foot_l/ball_l
+        weight: 0
+      - path: root/pelvis/thigh_l/thigh_twist_01_l
+        weight: 0
+      - path: root/pelvis/thigh_l/thigh_twist_02_l
+        weight: 0
+      - path: root/pelvis/thigh_r
+        weight: 0
+      - path: root/pelvis/thigh_r/calf_r
+        weight: 0
+      - path: root/pelvis/thigh_r/calf_r/calf_twist_01_r
+        weight: 0
+      - path: root/pelvis/thigh_r/calf_r/calf_twist_02_r
+        weight: 0
+      - path: root/pelvis/thigh_r/calf_r/foot_r
+        weight: 0
+      - path: root/pelvis/thigh_r/calf_r/foot_r/ball_r
+        weight: 0
+      - path: root/pelvis/thigh_r/thigh_twist_01_r
+        weight: 0
+      - path: root/pelvis/thigh_r/thigh_twist_02_r
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 23790db5a46f3de468fd7fa013a2a67e, type: 2}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PP
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0.97
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FF
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1.97
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TH
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 2.97
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DD
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 3.9700003
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 4.97
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CH
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 5.97
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SS
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 6.97
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: nn
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 7.9699993
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RR
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 8.97
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: aa
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 9.97
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: E
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 10.97
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ih
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 11.97
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: oh
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 12.969999
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ou
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 13.97
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Animations/Viseme_Mapping_Pose.fbx
+  uploadId: 827986

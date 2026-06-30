@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3f6e30eea65664a4b852f2eb792cf668
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Scripts/scrObj_Randomizer_Standard.cs
+  uploadId: 827986

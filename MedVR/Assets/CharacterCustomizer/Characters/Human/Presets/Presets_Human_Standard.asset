@@ -1,0 +1,1980 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eea920b340082c4f9f96ac3ddab028d, type: 3}
+  m_Name: Presets_Human_Standard
+  m_EditorClassIdentifier: 
+  Presets:
+  - CharacterName: Default_Female
+    CharacterPrefab: Human_Female
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - Long_01_F
+    - Eyebrows_02
+    ApparelNames:
+    - Bra_01
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.7, g: 0.56, b: 0.48999998, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.4117647, g: 0.5411765, b: 0.6392157, a: 0}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.3764706, g: 0.28627452, b: 0.21960784, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
+  - CharacterName: Default_Female_Asian
+    CharacterPrefab: Human_Female
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - Ponytail_01
+    - Eyebrows_02
+    ApparelNames:
+    - Bra_01
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.7, g: 0.56, b: 0.48999998, a: 0.29803923}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.22745098, g: 0.16862746, b: 0.12156863, a: 0}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
+  - CharacterName: Default_Female_African
+    CharacterPrefab: Human_Female
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - Afro_Curl_01
+    - Eyebrows_02
+    ApparelNames:
+    - Bra_01
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_02
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_02
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.22745098, g: 0.16862746, b: 0.12156863, a: 1}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
+  - CharacterName: Default_Male
+    CharacterPrefab: Human_Male
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - SidePart_02
+    - Eyebrows_01
+    - Beard_Default
+    ApparelNames:
+    - UpperBody_Default
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0.35
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.7, g: 0.56, b: 0.48999998, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.4117647, g: 0.5411765, b: 0.6392157, a: 0}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.3764706, g: 0.28627452, b: 0.21960784, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
+  - CharacterName: Default_Male_Asian
+    CharacterPrefab: Human_Male
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - SidePart_01
+    - Eyebrows_01
+    - Beard_Default
+    ApparelNames:
+    - UpperBody_Default
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0.35
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_01
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.7, g: 0.56, b: 0.48999998, a: 0.29803923}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.22745098, g: 0.16862746, b: 0.12156863, a: 0}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
+  - CharacterName: Default_Male_African
+    CharacterPrefab: Human_Male
+    Blendshapes:
+    - propertyName: mod_jaw_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_jaw_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_underbite
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_chin_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_eyes_narrow
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_mouth_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_size
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_width
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_nose_out
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_height
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: mod_brow_depth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_UpperArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LowerArmScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_WaistSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_TorsoHeight
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ShoulderWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HipWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_LegsWidth
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_ThighScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_CalfScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckScale
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_NeckLength
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: BodyCustomization_HeadSize
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_01
+      stringValue: 
+      floatValue: 1
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_02
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_03
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_04
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_05
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_06
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_07
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: shp_head_08
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: -1
+      meshTag: 
+    HairNames:
+    - Afro_Short_02
+    - Eyebrows_01
+    - Beard_Default
+    ApparelNames:
+    - UpperBody_Default
+    - Underwear_01
+    - Footwear_Default
+    - Headwear_Default
+    ApparelMaterials: 00000000000000000000000000000000
+    FloatProperties:
+    - propertyName: _Skin_Smoothness
+      stringValue: 
+      floatValue: 0.5
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Freckles_Strength
+      stringValue: 
+      floatValue: 0.33
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Make_Up_Opacity
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Wrinkles
+      stringValue: 
+      floatValue: 0.35
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    TextureProperties:
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Head_02
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Color_Map
+      stringValue: T_Skin_Body_02
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    - propertyName: _Make_Up
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Tattoo
+      stringValue: T_Transparent
+      floatValue: 0
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      materialIndex: 0
+      meshTag: Body
+    ColorProperties:
+    - propertyName: _Skin_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 1, g: 1, b: 1, a: 0}
+      materialIndex: 0
+      meshTag: 
+    - propertyName: _Eye_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.22745098, g: 0.16862746, b: 0.12156863, a: 1}
+      materialIndex: -1
+      meshTag: Head
+    - propertyName: _Lips_Color
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.6313726, g: 0.27058825, b: 0.22352941, a: 0}
+      materialIndex: 0
+      meshTag: Head
+    - propertyName: _Hair_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
+      materialIndex: -1
+      meshTag: 
+    - propertyName: _Make_Up_Tint
+      stringValue: 
+      floatValue: 0
+      colorValue: {r: 0.8, g: 0.4, b: 0.6333332, a: 1}
+      materialIndex: 0
+      meshTag: Head
