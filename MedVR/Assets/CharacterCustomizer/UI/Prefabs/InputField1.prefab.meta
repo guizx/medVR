@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 765da208d230c7d40909a69b36996c18
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/InputField1.prefab
+  uploadId: 827986

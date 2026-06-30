@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1fc9bc18913f3374887a671c86a4a6e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Environment/HalfSphere/HalfSphere.prefab
+  uploadId: 827986

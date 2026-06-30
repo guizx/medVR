@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7b50bfc1d8d860042808b29a182aef51
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Scripts/Option_Color_Picker.cs
+  uploadId: 827986

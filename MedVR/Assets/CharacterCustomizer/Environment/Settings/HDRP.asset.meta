@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fadf388b0fffbdd42b91c23436028f6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Environment/Settings/HDRP.asset
+  uploadId: 827986

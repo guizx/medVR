@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f6d148d888ffbf54b9afe9936dfaec1f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Camera/Prefabs/MainCamera.prefab
+  uploadId: 827986

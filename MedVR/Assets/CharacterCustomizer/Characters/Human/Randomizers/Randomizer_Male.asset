@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6e30eea65664a4b852f2eb792cf668, type: 3}
+  m_Name: Randomizer_Male
+  m_EditorClassIdentifier: 
+  hairBlacklistCaucasian:
+  - Eyebrows_Default
+  - Afro_Short_01
+  - Afro_Short_02
+  - Bob_01
+  - Bob_02
+  - Short_01
+  - Long_01_F
+  hairBlacklistAfrican:
+  - Eyebrows_Default
+  - SidePart_01
+  - SidePart_02
+  - Bob_01
+  - Bob_02
+  - Short_01
+  - Long_01_F
+  - Long_01_M
+  - Beard_01
+  - Ponytail_01
+  hairBlacklistAsian:
+  - Eyebrows_Default
+  - Afro_Short_01
+  - Afro_Short_02
+  - Afro_Curl_01
+  - Beard_01
+  - Beard_02
+  - Short_01
+  - Long_01_F
+  - Long_01_M
+  - Bob_01
+  - Bob_02

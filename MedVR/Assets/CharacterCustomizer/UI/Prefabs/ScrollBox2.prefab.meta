@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a2fc29630bb9254c8ffba2e1f2ca93b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/ScrollBox2.prefab
+  uploadId: 827986

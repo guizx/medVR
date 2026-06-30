@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d2c2d7830608c47b7968c3e9e9a239, type: 3}
+  m_Name: Facial_Hair
+  m_EditorClassIdentifier: 
+  Hairstyles:
+  - Name: Beard_Default
+    Mesh: {fileID: 0}
+    ShadowMap: {fileID: 2800000, guid: 62856fea1fbe5384f889ddc41811250c, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  - Name: Beard_01
+    Mesh: {fileID: 2709079240420305990, guid: dbd967e365f7a3244aaa2d6af1772d3f, type: 3}
+    ShadowMap: {fileID: 2800000, guid: f6a309a37aca12346aff50d90f69cc16, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  - Name: Beard_02
+    Mesh: {fileID: 4094624847200109390, guid: afb6fabd56b1d7c4cabf19c4006c5426, type: 3}
+    ShadowMap: {fileID: 2800000, guid: 587fad8f1c1ef7643aa243c1de03fc3a, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  - Name: Beard_03
+    Mesh: {fileID: 2435302850882134694, guid: 68f7f328b1f54b04a92e45f0d410dc83, type: 3}
+    ShadowMap: {fileID: 2800000, guid: 2d9db3de1de65f9419b8a915969d9b5c, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  - Name: Beard_04
+    Mesh: {fileID: 4260341774823371930, guid: 0be6c835f01e90d4f822671ba2ad4ce0, type: 3}
+    ShadowMap: {fileID: 2800000, guid: e0dddf448443df041b7be51165dc4c11, type: 3}
+    AddCopyPoseScript: 0
+    Icon: {fileID: 0}
+  SkinShadowMapProperty:
+    propertyName: _Facial_Hair_Shadow_Map
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: 0
+    meshTag: Head
+  HairTintProperty:
+    propertyName: _Hair_Tint
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: -1
+    meshTag: 

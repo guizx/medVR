@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94ce67e1680d0e4db34aeb1f71e6c9a, type: 3}
+  m_Name: Headwear_F
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: Headwear_Default
+    Mesh: {fileID: 0}
+    DisplayName: </>
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: 
+      MaterialDefinitions: []
+      Icon: {fileID: 0}
+    NeckShrink: -1
+    CompressHair: 0
+    HidesTheseSlots: 
+    MenuCategory: 10
+  - Name: Aviator_Glasses
+    Mesh: {fileID: 5572967583360418612, guid: 29844b0d21b1284409499a1ebaaad57b, type: 3}
+    DisplayName: Aviator glasses
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: 
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.15170369, g: 0.15170369, b: 0.15170369, a: 1}
+        TintR: {r: 0.8588005, g: 0.6782842, b: 0, a: 1}
+        TintG: {r: 0.8968787, g: 0.88789463, b: 0.79806745, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: f8c611a852103494bb0e7f5407dda784, type: 3}
+    NeckShrink: -1
+    CompressHair: 0
+    HidesTheseSlots: 
+    MenuCategory: 10
+  - Name: Glasses_01
+    Mesh: {fileID: 5426909280134139957, guid: 3d08f738af35bc24f88c829e7e22d103, type: 3}
+    DisplayName: Glasses
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0, g: 0, b: 0, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0, g: 0, b: 0, a: 0.4509804}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 8df36557475196f44af0e3fdf98a7436, type: 3}
+    - Label: Tortoise
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 1, g: 1, b: 1, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 2800000, guid: 2ef22ff86d90c4c42aee1418d85c9670, type: 3}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0, g: 0, b: 0, a: 0.4509804}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 12350be8c72fd5248b64c0a34f1af27f, type: 3}
+    NeckShrink: -1
+    CompressHair: 0
+    HidesTheseSlots: 
+    MenuCategory: 10
+  - Name: Sunglasses_01
+    Mesh: {fileID: 5426909280134139957, guid: 3d08f738af35bc24f88c829e7e22d103, type: 3}
+    DisplayName: Sunglasses
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: -1
+      FootRotation: -1
+      BallRotation: -1
+    Materials:
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0, g: 0, b: 0, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.050980393, g: 0.050980393, b: 0.050980393, a: 0.9490196}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 550c83c2e9907954a9046c9300fcab0e, type: 3}
+    - Label: Tortoise
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 1, g: 1, b: 1, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 2800000, guid: 2ef22ff86d90c4c42aee1418d85c9670, type: 3}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.050980393, g: 0.050980393, b: 0.050980393, a: 0.9490196}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 7960a11bbaa0acf43b5925ea498af392, type: 3}
+    NeckShrink: -1
+    CompressHair: 0
+    HidesTheseSlots: 
+    MenuCategory: 10
+  SkinMaskProperty:
+    propertyName: 
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: -1
+    meshTag: 
+  Label: Miscellaneous

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 38f5f6622efd224499bff855f632f811
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Characters/Human/Randomizers/Randomizer_Female.asset
+  uploadId: 827986

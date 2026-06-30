@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11e9c5cedcd90d3488cd37e78809f755
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/UI/Prefabs/Slider1.prefab
+  uploadId: 827986

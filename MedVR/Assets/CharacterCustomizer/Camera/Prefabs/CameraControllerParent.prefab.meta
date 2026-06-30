@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2f9f1aaf1ac0fb48b6ffd7fecfcc6bb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241861
+  packageName: Character Customizer
+  packageVersion: 2.3.1
+  assetPath: Assets/CharacterCustomizer/Camera/Prefabs/CameraControllerParent.prefab
+  uploadId: 827986

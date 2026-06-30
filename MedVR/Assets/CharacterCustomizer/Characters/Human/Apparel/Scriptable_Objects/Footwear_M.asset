@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94ce67e1680d0e4db34aeb1f71e6c9a, type: 3}
+  m_Name: Footwear_M
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: Footwear_Default
+    Mesh: {fileID: 0}
+    DisplayName: </>
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: 0
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: 
+      MaterialDefinitions: []
+      Icon: {fileID: 0}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  - Name: Sneaker_01
+    Mesh: {fileID: 3205080845154909412, guid: feaf2a7b656b43245bbf4c6126a5f6e6, type: 3}
+    DisplayName: Sneakers
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
+    FootOffset:
+      HeightOffset: 2
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: Red
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.90476525, g: 0.8777238, b: 0.789133, a: 1}
+        TintR: {r: 0.83309966, g: 0.2602631, b: 0.2602631, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 7f97d4cad43f78c47b7bbd60d170a293, type: 3}
+    - Label: White
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.90476525, g: 0.8777238, b: 0.789133, a: 1}
+        TintR: {r: 0.9354409, g: 0.90700835, b: 0.85430145, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 4a7b2d11dfd926d4184e0bb88edb91a2, type: 3}
+    - Label: Blue
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.90476525, g: 0.8777238, b: 0.789133, a: 1}
+        TintR: {r: 0.35554338, g: 0.46897358, b: 0.7108133, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 93180c4f834d5e84c92fc3de06f9945c, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.90476525, g: 0.8777238, b: 0.789133, a: 1}
+        TintR: {r: 0.24780047, g: 0.24780047, b: 0.24780047, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 04103026055a15b4bb6d73a33e005958, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  - Name: Sneaker_02
+    Mesh: {fileID: 6393953464609514321, guid: f248e98d80a77cb45af14103bbf2371c, type: 3}
+    DisplayName: Sneakers
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
+    FootOffset:
+      HeightOffset: 2
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: White/Red
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9099731, g: 0.9099731, b: 0.9099731, a: 1}
+        TintR: {r: 0.7719012, g: 0.31015664, b: 0.31015664, a: 1}
+        TintG: {r: 0.33846593, g: 0.6271875, b: 1, a: 1}
+        TintB: {r: 0.3096825, g: 0.3096825, b: 0.3096825, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: c23556a93426552468e0590dd05882a2, type: 3}
+    - Label: Gray/green
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.5050551, g: 0.5050551, b: 0.5050551, a: 1}
+        TintR: {r: 0.23976636, g: 0.13053104, b: 0.046320505, a: 1}
+        TintG: {r: 0.19113308, g: 0.52669114, b: 0.24917388, a: 1}
+        TintB: {r: 0.3096825, g: 0.3096825, b: 0.3096825, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 486045c32024af24f843d7b7847a215b, type: 3}
+    - Label: White/turqoise
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9099731, g: 0.9099731, b: 0.9099731, a: 1}
+        TintR: {r: 0.20081091, g: 0.24718899, b: 0.34742993, a: 1}
+        TintG: {r: 0.3490773, g: 0.76432115, b: 0.778306, a: 1}
+        TintB: {r: 0.8942296, g: 0.5756431, b: 0.3670092, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: e25b7bf8cf2765a41a2da21585abe7f6, type: 3}
+    - Label: Black/orange
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.27730414, g: 0.27730414, b: 0.27730414, a: 1}
+        TintR: {r: 0.20081091, g: 0.24718899, b: 0.34742993, a: 1}
+        TintG: {r: 0.7877867, g: 0.3113653, b: 0.32129282, a: 1}
+        TintB: {r: 0.7522553, g: 0.40909922, b: 0.32260382, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: a7a104f9e919eca41897fa53de7a6e87, type: 3}
+    - Label: Yellow
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.9354409, g: 0.82207555, b: 0.28736702, a: 1}
+        TintR: {r: 0.34742993, g: 0.34742993, b: 0.34742993, a: 1}
+        TintG: {r: 0.80631304, g: 0.44034445, b: 0.35852385, a: 1}
+        TintB: {r: 0.34742993, g: 0.34742993, b: 0.34742993, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 1780b521cb5db4049b151daa144d28bf, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  - Name: Sandals_01
+    Mesh: {fileID: 8173259688576388795, guid: d536ea55e9be39649ae3837a6fc9a9d1, type: 3}
+    DisplayName: Sandals
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+    FootOffset:
+      HeightOffset: 2
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: Brown
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.5422072, g: 0.41568694, b: 0.25565144, a: 1}
+        TintR: {r: 0.9527367, g: 0.7921294, b: 0.6185284, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 335f6d4776e55a94c9059d018c727bbc, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.23976636, g: 0.23976636, b: 0.23976636, a: 1}
+        TintR: {r: 0.94783777, g: 0.77412015, b: 0.57949793, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 360eaab72f38d9a4eb4599d0dcc918d5, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  - Name: Boots_01
+    Mesh: {fileID: 5300975330249476412, guid: c95e7270539301e4a8262ea8f7cd562c, type: 3}
+    DisplayName: Boots
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
+    FootOffset:
+      HeightOffset: 2.5
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: Brown
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.5105728, g: 0.38276204, b: 0.30043593, a: 1}
+        TintR: {r: 0.6295773, g: 0.5180914, b: 0.43523645, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 0.7654255, g: 0.61788124, b: 0.5377406, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: d5d7399485825d948837be159238c99f, type: 3}
+    - Label: Tan
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.76867193, g: 0.61725706, b: 0.46951658, a: 1}
+        TintR: {r: 0.6295773, g: 0.5180914, b: 0.43523645, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 0.8093472, g: 0.6890199, b: 0.62771654, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 34672729629037d49839c32dee0ef612, type: 3}
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.28857303, g: 0.28497562, b: 0.2817703, a: 1}
+        TintR: {r: 0.28857303, g: 0.28497562, b: 0.2817703, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 0.37277868, g: 0.33842394, b: 0.32225162, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 07711c45fad31c749a4a98a5dc2313ab, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  - Name: Dress_Shoes_01
+    Mesh: {fileID: 2435414455027985348, guid: ad568469d18ea2149ac37b21d93008e1, type: 3}
+    DisplayName: Dress shoes
+    AddCopyPoseScript: 0
+    Mask: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
+    FootOffset:
+      HeightOffset: 2
+      FootRotation: 0
+      BallRotation: 0
+    Materials:
+    - Label: Black
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.2209163, g: 0.2209163, b: 0.2209163, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.31330413, g: 0.31330413, b: 0.31330413, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 7943f294900ca3647a6b51af60000fca, type: 3}
+    - Label: Brown
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.41088474, g: 0.27514318, b: 0.18479696, a: 1}
+        TintR: {r: 0.19394681, g: 0.17913857, b: 0.15318197, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.31330413, g: 0.31330413, b: 0.31330413, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: f7f570082deb4274ab47efa17cefb6bd, type: 3}
+    - Label: Tan
+      MaterialDefinitions:
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.66985255, g: 0.50518847, b: 0.31407794, a: 1}
+        TintR: {r: 0.23976636, g: 0.22223401, b: 0.19150028, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      - MaterialOverride: {fileID: 0}
+        MainTint: {r: 0.31330413, g: 0.31330413, b: 0.31330413, a: 1}
+        TintR: {r: 1, g: 1, b: 1, a: 1}
+        TintG: {r: 1, g: 1, b: 1, a: 1}
+        TintB: {r: 1, g: 1, b: 1, a: 1}
+        Print: {fileID: 0}
+      Icon: {fileID: 21300000, guid: 97335f30446ab404e95a8f8517548dee, type: 3}
+    NeckShrink: -1
+    CompressHair: -1
+    HidesTheseSlots: 
+    MenuCategory: 3
+  SkinMaskProperty:
+    propertyName: _Footwear_Mask
+    stringValue: 
+    floatValue: 0
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    materialIndex: 0
+    meshTag: Body
+  Label: Footwear
