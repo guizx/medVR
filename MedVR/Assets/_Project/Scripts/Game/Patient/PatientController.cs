@@ -19,11 +19,15 @@ public class PatientController : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private Animator patientAnimator;
     [SerializeField] private float delayBetweenPhrases = 1.5f;
 
     private List<Button> spawnedButtons = new List<Button>();
     private List<string> collectedSymptoms = new List<string>();
     private int currentPhraseIndex = 0;
+
+    public float maxMouthOpen = 1f;
+    public float mouthSpeedLerp = 10f;
 
     private void Start()
     {
@@ -56,21 +60,71 @@ public class PatientController : MonoBehaviour
         StartCoroutine(PlayPhraseRoutine(data));
     }
 
+    // private IEnumerator PlayPhraseRoutine(PatientPhrase data)
+    // {
+    //     phraseText.text = "";
+    //     if (data.PhraseSFX != null) audioSource.PlayOneShot(data.PhraseSFX);
+
+    //     float duration = data.PhraseSFX != null ? data.PhraseSFX.length : 2.0f;
+    //     float charDelay = (duration - 0.5f) / Mathf.Max(data.Phrase.Length, 1);
+
+    //     foreach (char c in data.Phrase)
+    //     {
+    //         phraseText.text += c;
+
+
+    //         yield return new WaitForSeconds(charDelay);
+
+    //     }
+
+    //     yield return new WaitForSeconds(0.5f);
+    //     SpawnSymptomButtons(data.Options);
+    // }
+
+
     private IEnumerator PlayPhraseRoutine(PatientPhrase data)
     {
         phraseText.text = "";
-        if (data.PhraseSFX != null) audioSource.PlayOneShot(data.PhraseSFX);
+        float currentMouthValue = 0f;
+
+        if (data.PhraseSFX != null)
+        {
+            audioSource.clip = data.PhraseSFX;
+            audioSource.Play();
+        }
 
         float duration = data.PhraseSFX != null ? data.PhraseSFX.length : 2.0f;
         float charDelay = (duration - 0.5f) / Mathf.Max(data.Phrase.Length, 1);
+        float[] spectrum = new float[256];
+        float timer = 0f;
 
-        foreach (char c in data.Phrase)
+        while (timer < duration)
         {
-            phraseText.text += c;
-            yield return new WaitForSeconds(charDelay);
+            if (data.PhraseSFX != null)
+            {
+                audioSource.GetOutputData(spectrum, 0);
+
+                float peak = 0f;
+                foreach (float s in spectrum) peak = Mathf.Max(peak, Mathf.Abs(s));
+
+                float targetValue = Mathf.Clamp(peak * mouthSpeedLerp, 0f, maxMouthOpen);
+
+                currentMouthValue = Mathf.Lerp(currentMouthValue, targetValue, Time.deltaTime * mouthSpeedLerp);
+
+                patientAnimator.SetFloat("ih", currentMouthValue);
+            }
+
+            if (timer < (duration - 0.5f))
+            {
+                int charIndex = Mathf.Clamp(Mathf.FloorToInt(timer / charDelay), 0, data.Phrase.Length - 1);
+                phraseText.text = data.Phrase.Substring(0, charIndex + 1);
+            }
+
+            timer += Time.deltaTime;
+            yield return null;
         }
 
-        yield return new WaitForSeconds(0.5f);
+        patientAnimator.SetFloat("ih", 0f);
         SpawnSymptomButtons(data.Options);
     }
 
