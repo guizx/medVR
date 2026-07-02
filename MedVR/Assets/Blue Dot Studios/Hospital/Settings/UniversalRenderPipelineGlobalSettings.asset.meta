@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 058845f189a7a3a4ea27fa0703d98012
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 246450
+  packageName: Hospital | Blue Dot Studios
+  packageVersion: 1.0
+  assetPath: Assets/Blue Dot Studios/Hospital/Settings/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 561988

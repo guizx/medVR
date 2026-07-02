@@ -23,8 +23,8 @@
   <Project Path="Unity.InputSystem.csproj" />
   <Project Path="PPv2URPConverters.csproj" />
   <Project Path="Unity.Searcher.Editor.csproj" />
-  <Project Path="UnityEditor.TestRunner.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="UnityEditor.TestRunner.csproj" />
   <Project Path="Unity.VisualScripting.Core.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Runtime.csproj" />
   <Project Path="Unity.UnifiedRayTracing.Runtime.csproj" />

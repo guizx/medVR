@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10ca28bb1eb60bc4abb4c8a08d21cace
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 246450
+  packageName: Hospital | Blue Dot Studios
+  packageVersion: 1.0
+  assetPath: Assets/Blue Dot Studios/Hospital/Prefabs/ECG_Device.prefab
+  uploadId: 561988

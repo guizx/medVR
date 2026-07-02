@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f977f4d783b507448699eb042755baf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 246450
+  packageName: Hospital | Blue Dot Studios
+  packageVersion: 1.0
+  assetPath: Assets/Blue Dot Studios/Hospital/Settings/Local_Post_Process_Settings.asset
+  uploadId: 561988

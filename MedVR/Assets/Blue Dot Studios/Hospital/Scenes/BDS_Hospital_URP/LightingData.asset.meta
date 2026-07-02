@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c57dcd8f8f6dc6c4193e06825289a14f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 246450
+  packageName: Hospital | Blue Dot Studios
+  packageVersion: 1.0
+  assetPath: Assets/Blue Dot Studios/Hospital/Scenes/BDS_Hospital_URP/LightingData.asset
+  uploadId: 561988
