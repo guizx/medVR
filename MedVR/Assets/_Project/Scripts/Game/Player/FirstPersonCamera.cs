@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class FirstPersonCamera : MonoBehaviour
@@ -14,14 +15,32 @@ public class FirstPersonCamera : MonoBehaviour
     private float pitch = 0f;
     private float yaw = 0f;
     private bool canMove = true;
+
+    public bool Freeze = false;
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        PauseManager.OnPausedChanged += OnPauseChanged;
+    }
+
+    private void OnDestroy()
+    {
+        PauseManager.OnPausedChanged -= OnPauseChanged;
+
+    }
+
+    private void OnPauseChanged(bool isPaused)
+    {
+        Freeze = isPaused;
     }
 
     private void Update()
     {
+        if (Freeze)
+            return;
+
         if (!canMove)
             return;
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
@@ -41,6 +60,21 @@ public class FirstPersonCamera : MonoBehaviour
         transform.localEulerAngles = newRotation;
         pitch = newRotation.x;
         yaw = newRotation.y;
+    }
+
+    public void LookAtTarget(Transform target)
+    {
+        Vector3 direction = target.position - transform.position;
+
+        Quaternion targetRotation = Quaternion.LookRotation(direction);
+        Vector3 euler = targetRotation.eulerAngles;
+
+        float targetPitch = euler.x > 180 ? euler.x - 360 : euler.x;
+
+        float targetYaw = euler.y > 180 ? euler.y - 360 : euler.y;
+        pitch = Mathf.Clamp(targetPitch, minPitch, maxPitch);
+        yaw = Mathf.Clamp(targetYaw, minYaw, maxYaw);
+        transform.localEulerAngles = new Vector3(pitch, yaw, 0f);
     }
 
     public void DisableMovement()

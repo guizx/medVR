@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4914806f9ea8b5541b2d13621845ac3c, type: 3}
+  m_Name: Tuberculose
+  m_EditorClassIdentifier: Assembly-CSharp::DiseaseData
+  DiseaseName: Tuberculose
+  DiseaseTriage:
+  - "Paciente procura atendimento devido a tosse persistente h\xE1 v\xE1rias semanas."
+  Phrases:
+  - PhraseSFX: {fileID: 8300000, guid: 751702b73d8665c4d84845c6e9bd33e4, type: 3}
+    Phrase: "J\xE1 faz mais de um m\xEAs que essa tosse n\xE3o vai embora, n\xE3o
+      importa o que eu tome.\r\n"
+    Options:
+    - SymptomName: "Tosse psicog\xEAnica"
+      IsCorrect: 0
+    - SymptomName: Tosse persistente
+      IsCorrect: 1
+    - SymptomName: "Tosse al\xE9rgica sazonal"
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: 09b08232fd9aa464bbab04783dd6dd02, type: 3}
+    Phrase: Eu acordo no meio da noite com a camisa toda encharcada de suor, preciso
+      trocar de roupa de madrugada.
+    Options:
+    - SymptomName: Hiperidrose emocional
+      IsCorrect: 0
+    - SymptomName: Sudorese noturna
+      IsCorrect: 1
+    - SymptomName: "Febre termog\xEAnica"
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: d3f1061feee1dd749886fb48e29c7bd9, type: 3}
+    Phrase: "Perdi o apetite completamente, sinto que emagreci bastante nas \xFAltimas
+      semanas sem fazer dieta."
+    Options:
+    - SymptomName: "Desnutri\xE7\xE3o cal\xF3rica"
+      IsCorrect: 0
+    - SymptomName: Perda ponderal progressiva
+      IsCorrect: 1
+    - SymptomName: Edema por hipoproteinemia
+      IsCorrect: 0

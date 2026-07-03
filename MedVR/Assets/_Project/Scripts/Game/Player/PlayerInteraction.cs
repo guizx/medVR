@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using System;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -8,8 +9,30 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private LayerMask interactableLayer;
     [SerializeField] private Transform crosshair;
 
+    public bool Freeze;
+
+    private void Start()
+    {
+        
+            PauseManager.OnPausedChanged += OnPauseChanged;
+    }
+
+    private void OnDestroy()
+    {
+        PauseManager.OnPausedChanged -= OnPauseChanged;
+
+    }
+
+    private void OnPauseChanged(bool isPaused)
+    {
+        Freeze = isPaused;
+    }
+
     private void Update()
     {
+        if(Freeze)
+            return;
+
         UpdateCrosshairState();
 
         if (Input.GetMouseButtonDown(0))
@@ -81,7 +104,7 @@ public class PlayerInteraction : MonoBehaviour
             if (btn3D != null) btn3D.Press();
 
             var patient = hit.collider.GetComponent<PatientController>();
-            if (patient != null) patient.StartConsultation();
+            if (patient != null && patient.enabled) patient.StartConsultation();
         }
     }
 }
