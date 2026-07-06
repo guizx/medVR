@@ -15,6 +15,7 @@ MonoBehaviour:
   DiseaseName: Tuberculose
   DiseaseTriage:
   - "Paciente procura atendimento devido a tosse persistente h\xE1 v\xE1rias semanas."
+  EmergencyCode: 2
   Phrases:
   - PhraseSFX: {fileID: 8300000, guid: 751702b73d8665c4d84845c6e9bd33e4, type: 3}
     Phrase: "J\xE1 faz mais de um m\xEAs que essa tosse n\xE3o vai embora, n\xE3o

@@ -23,6 +23,6 @@ public class HeadLookAt : MonoBehaviour
 
         Quaternion offset = Quaternion.Euler(offsetRotation);
         
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation * offset, Time.deltaTime * smoothing);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation * offset, Time.unscaledDeltaTime * smoothing);
     }
 }

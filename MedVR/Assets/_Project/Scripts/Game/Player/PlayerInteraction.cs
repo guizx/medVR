@@ -86,7 +86,7 @@ public class PlayerInteraction : MonoBehaviour
         foreach (var result in results)
         {
             var button = result.gameObject.GetComponent<UnityEngine.UI.Button>();
-            if (button != null)
+            if (button != null && button.interactable)
             {
                 button.onClick.Invoke();
                 return true;

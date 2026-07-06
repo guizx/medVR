@@ -16,6 +16,7 @@ MonoBehaviour:
   DiseaseTriage:
   - "Relata desconforto persistente em m\xE3os e punhos que dificulta movimentos
     habituais."
+  EmergencyCode: 1
   Phrases:
   - PhraseSFX: {fileID: 8300000, guid: dab48637e89fbac45b155452f8c63307, type: 3}
     Phrase: "Toda manh\xE3 \xE9 uma luta, doutor. Quando acordo, minhas m\xE3os est\xE3o

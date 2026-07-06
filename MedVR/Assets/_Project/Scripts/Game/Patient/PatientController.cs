@@ -40,6 +40,8 @@ public class PatientController : MonoBehaviour
     {
         if (!GameManager.Instance.OnConsultation)
             GameManager.Instance.ComputerUI.BeginConsultation(this);
+
+        GetComponent<BoxCollider>().enabled = false;
     }
 
     public void Speak(int phraseIndex, Action onFinished)

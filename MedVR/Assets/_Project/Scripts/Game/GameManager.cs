@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
             // patientModel.SetActive(true);
             computerInfo.SetActive(true);
 
-            PatientData randomPatient = patientsList[Random.Range(0, patientsList.Count)];
+            PatientData randomPatient = patientsList[currentDiseaseIndex];
             DiseaseData currentDisease = diseaseList[currentDiseaseIndex];
             currentPatientController.Setup(randomPatient, currentDisease);
             ComputerUI.Setup(currentPatientController.currentPatient, currentPatientController.currentDisease);

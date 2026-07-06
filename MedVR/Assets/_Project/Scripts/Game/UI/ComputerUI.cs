@@ -11,6 +11,7 @@ public class ComputerUI : MonoBehaviour
     public TextMeshProUGUI PatientGenreText;
     public TextMeshProUGUI PatientTriageReportText;
     public TextMeshProUGUI PatientSymptomText;
+    public TextMeshProUGUI ReportHourText;
     public TextMeshProUGUI PatientEmergencyCode;
     public TextMeshProUGUI SymptomTitleText;
 
@@ -38,6 +39,7 @@ public class ComputerUI : MonoBehaviour
         PatientAgeText.text = $"Idade: {patient.Age}";
         PatientGenreText.text = $"Gênero: {patient.Genre}";
         PatientTriageReportText.text = $"Triagem: {disease.DiseaseTriage[Random.Range(0, disease.DiseaseTriage.Length)]}";
+        ReportHourText.text = $"Horário: {System.DateTime.Now:dd/MM/yy HH:mm}";
         PatientEmergencyCode.text = $"Código: {disease.EmergencyCode}";
         EndingConsultationPanel.SetActive(false);
         ComputerPanel.SetActive(true);
@@ -51,6 +53,9 @@ public class ComputerUI : MonoBehaviour
         PatientTriageReportText.text = "";
         PatientSymptomText.text = "Sintomas";
         PatientEmergencyCode.text = "";
+        SymptomTitleText.text = "";
+        ReportHourText.text = "";
+        ConsultationText.text = "";
     }
 
     public void BeginConsultation(PatientController patient)
@@ -154,10 +159,11 @@ public class ComputerUI : MonoBehaviour
         {
             audioSource.PlayOneShot(SFX_Success);
             EndingConsultationPanel.SetActive(true);
-            ConsultationText.text = "Diagnóstico Correto! O paciente agradece.";
 
             ClearAllButtons();
             ClearAllText();
+            ComputerPanel.SetActive(false);
+            ConsultationText.text = "Diagnóstico Correto! O paciente agradece.";
             activePatient.enabled = false;
             GameManager.Instance.OnConsultation = false;
         }
