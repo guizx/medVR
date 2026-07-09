@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4914806f9ea8b5541b2d13621845ac3c, type: 3}
+  m_Name: Mieloma Multiplo
+  m_EditorClassIdentifier: Assembly-CSharp::DiseaseData
+  DiseaseName: "Mieloma M\xFAltiplo"
+  DiseaseTriage:
+  - "Paciente queixa-se de dor lombar cr\xF4nica."
+  EmergencyCode: 1
+  Phrases:
+  - PhraseSFX: {fileID: 8300000, guid: 57f8e92c2ca48bd43b155ac59fab3481, type: 3}
+    Phrase: "Doutor, minhas costas doem sem parar, \xE9 uma dor profunda que parece
+      vir de dentro dos ossos."
+    Options:
+    - SymptomName: "Distens\xE3o muscular"
+      IsCorrect: 0
+    - SymptomName: "Dor \xF3ssea intensa"
+      IsCorrect: 1
+    - SymptomName: Apendicite
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: 36d2a24351e26584a9f8b0d25b0b93a8, type: 3}
+    Phrase: "Tropecei em casa, uma queda boba, e acabei quebrando o bra\xE7o. Nem
+      foi uma batida forte..."
+    Options:
+    - SymptomName: "Fratura patol\xF3gica"
+      IsCorrect: 1
+    - SymptomName: "Defici\xEAncia de c\xE1lcio"
+      IsCorrect: 0
+    - SymptomName: Fadiga
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: f605e12de20c84749bba04691d74ba16, type: 3}
+    Phrase: "Fui fazer um exame de rotina e no resultado esta que a urina est\xE1
+      saindo com muita prote\xEDna, como se meus rins n\xE3o estivessem filtrando
+      direito."
+    Options:
+    - SymptomName: "Protein\xFAria"
+      IsCorrect: 1
+    - SymptomName: Pedras nos rins
+      IsCorrect: 0
+    - SymptomName: "Infec\xE7\xE3o urin\xE1ria"
+      IsCorrect: 0

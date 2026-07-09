@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4914806f9ea8b5541b2d13621845ac3c, type: 3}
+  m_Name: Candidiase
+  m_EditorClassIdentifier: Assembly-CSharp::DiseaseData
+  DiseaseName: "Candid\xEDase"
+  DiseaseTriage:
+  - "Paciente reclama de ard\xEAncia ao urinar."
+  EmergencyCode: 2
+  Phrases:
+  - PhraseSFX: {fileID: 8300000, guid: 6b01384034c07434991f1a49ac70c815, type: 3}
+    Phrase: "Doutor, n\xE3o aguento mais essa coceira l\xE1 embaixo, \xE9 uma vontade
+      de co\xE7ar que chega a ser insuport\xE1vel."
+    Options:
+    - SymptomName: Prurido
+      IsCorrect: 1
+    - SymptomName: "Infec\xE7\xE3o por parasitas"
+      IsCorrect: 0
+    - SymptomName: Dermatite de Contato
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: 45bfe1166bdfb754a9f8beed7d7edb0e, type: 3}
+    Phrase: "Notei um corrimento diferente hoje, \xE9 branco e parece um pouco com
+      leite coalhado."
+    Options:
+    - SymptomName: Corrimento Vaginal
+      IsCorrect: 1
+    - SymptomName: Vaginose Bacteriana
+      IsCorrect: 0
+    - SymptomName: "Tricomon\xEDase"
+      IsCorrect: 0
+  - PhraseSFX: {fileID: 8300000, guid: 04a8b6a4f675c5d458058e8bfc8f9c90, type: 3}
+    Phrase: "Toda vez que vou ao banheiro, sinto uma ard\xEAncia muito forte ao urinar."
+    Options:
+    - SymptomName: "Urg\xEAncia miccional"
+      IsCorrect: 0
+    - SymptomName: "Ard\xEAncia ao urinar"
+      IsCorrect: 1
+    - SymptomName: Hematuria
+      IsCorrect: 0
