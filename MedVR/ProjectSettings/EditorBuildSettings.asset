@@ -15,5 +15,8 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Gameover.unity
     guid: 7941af27c12c00f4a85d71438af2e3ee
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f6fa18d4e23b8594fa48a9dc249df419, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a0ec59f541b486f499606bce8d7ad9d5, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5e3d7594eeaf048489ff65cb9951fc18, type: 2}
   m_UseUCBPForAssetBundles: 0
