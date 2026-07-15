@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -28,6 +29,9 @@ public class GameManager : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip SFX_NextPatient;
 
+    public GameObject DoctorCamera;
+    public GameObject ComputerCamera;
+
 
 
     private void Awake()
@@ -37,8 +41,46 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        ComputerUI.OnOptionsDisplayed += OnOpsionsDisplayed;
+    }
+
+    private void OnDestroy()
+    {
+        ComputerUI.OnOptionsDisplayed -= OnOpsionsDisplayed;
+    }
+
+    private void OnOpsionsDisplayed()
+    {
+        StartCoroutine(EnableComputerCameraRoutine());
+    }
+
+    private IEnumerator EnableComputerCameraRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+        EnableComputerCamera(true);
+        EnableDoctorCamera(false);
+    }
+
+    private IEnumerator EnableDoctorCameraRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+        EnableComputerCamera(false);
+        EnableDoctorCamera(true);
+    }
+
+    public void EnableComputerCamera(bool state)
+    {
+        if (ComputerCamera != null)
+            ComputerCamera.SetActive(state);
+    }
+
+    public void EnableDoctorCamera(bool state)
+    {
+        if (DoctorCamera != null)
+            DoctorCamera.SetActive(state);
     }
 
     public void CallNextPatient()
@@ -50,6 +92,8 @@ public class GameManager : MonoBehaviour
     {
         audioSource.PlayOneShot(SFX_NextPatient);
 
+        EnableComputerCamera(false);
+        EnableDoctorCamera(true);
         UIManager.Instance.FadeIn(duration: 0.5f, null);
         yield return new WaitForSeconds(0.55f);
 
@@ -60,6 +104,7 @@ public class GameManager : MonoBehaviour
         }
 
         foreach (var p in patients) p.gameObject.SetActive(false);
+
         yield return new WaitForSeconds(0.1f);
 
 

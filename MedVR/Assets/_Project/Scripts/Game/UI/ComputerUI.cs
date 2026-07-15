@@ -32,6 +32,8 @@ public class ComputerUI : MonoBehaviour
     public AudioClip SFX_Error;
     public GameObject ComputerPanel;
 
+    public System.Action OnOptionsDisplayed;
+
 
     public void Setup(PatientData patient, DiseaseData disease)
     {
@@ -90,6 +92,8 @@ public class ComputerUI : MonoBehaviour
 
     private void ShowOptions()
     {
+        OnOptionsDisplayed?.Invoke();
+
         SymptomTitleText.text = "Qual o sintoma?";
         var options = activePatient.currentDisease.Phrases[currentPhraseIndex].Options;
         foreach (var opt in options)
@@ -132,6 +136,7 @@ public class ComputerUI : MonoBehaviour
 
     private void ShowDiagnosisPhase()
     {
+        OnOptionsDisplayed?.Invoke();
         SymptomTitleText.text = "Qual é o seu diagnóstico?";
         ClearAllButtons();
 
