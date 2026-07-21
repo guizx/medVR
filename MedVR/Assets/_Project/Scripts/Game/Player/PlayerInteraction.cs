@@ -97,6 +97,9 @@ public class PlayerInteraction : MonoBehaviour
 
     private void TryClickObject()
     {
+        if(PauseManager.Instance.IsPaused)
+            return;
+
         Ray ray = new Ray(transform.position, transform.forward);
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactableLayer))
         {

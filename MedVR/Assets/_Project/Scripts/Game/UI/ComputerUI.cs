@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ComputerUI : MonoBehaviour
@@ -14,6 +15,14 @@ public class ComputerUI : MonoBehaviour
     public TextMeshProUGUI ReportHourText;
     public TextMeshProUGUI PatientEmergencyCode;
     public TextMeshProUGUI SymptomTitleText;
+    public CanvasGroup DisplayCanvasGroup;
+
+    [Header("Score Panel")]
+    public GameObject ScorePanel;
+
+    public TextMeshProUGUI SymptomScoreText;
+    public TextMeshProUGUI DiseaseScoreText;
+    public TextMeshProUGUI FinalScoreText;
 
     public Button SymptomButtonPrefab;
     public Transform SymptomContainer;
@@ -33,7 +42,15 @@ public class ComputerUI : MonoBehaviour
     public GameObject ComputerPanel;
 
     public System.Action OnOptionsDisplayed;
+    public System.Action OnCorrectSymptomSelected;
 
+    public int ScoreSymptomCorrect = 0;
+    public int ScoreSymptomInCorrect = 0;
+    public int ScoreDiseaseCorrect = 0;
+    public int ScoreDiseaseInCorrect = 0;
+    public int FinalScore;
+
+    public UnityEvent OnFinalScoreShowed;
 
     public void Setup(PatientData patient, DiseaseData disease)
     {
@@ -58,6 +75,16 @@ public class ComputerUI : MonoBehaviour
         SymptomTitleText.text = "";
         ReportHourText.text = "";
         ConsultationText.text = "";
+    }
+
+    public void HideDisplay()
+    {
+        DisplayCanvasGroup.alpha = 0;
+    }
+
+    public void ShowDisplay()
+    {
+        DisplayCanvasGroup.alpha = 1;
     }
 
     public void BeginConsultation(PatientController patient)
@@ -113,17 +140,23 @@ public class ComputerUI : MonoBehaviour
 
         if (opt.IsCorrect)
         {
+            ScoreSymptomCorrect++;
             audioSource.PlayOneShot(SFX_Success);
 
             AddSymptom(opt.SymptomName);
-
-            yield return new WaitForSeconds(0.5f);
-
             currentPhraseIndex++;
+            yield return new WaitForSeconds(0.5f);
+            if (currentPhraseIndex < activePatient.currentDisease.Phrases.Count)
+            {
+                OnCorrectSymptomSelected?.Invoke();
+                yield return new WaitForSeconds(1.3f);
+            }
+
             PlayNextStep();
         }
         else
         {
+            ScoreSymptomInCorrect++;
             audioSource.PlayOneShot(SFX_Error);
 
             yield return new WaitForSeconds(0.5f);
@@ -162,6 +195,7 @@ public class ComputerUI : MonoBehaviour
 
         if (isCorrect)
         {
+            ScoreDiseaseCorrect++;
             audioSource.PlayOneShot(SFX_Success);
             EndingConsultationPanel.SetActive(true);
 
@@ -174,6 +208,7 @@ public class ComputerUI : MonoBehaviour
         }
         else
         {
+            ScoreDiseaseInCorrect++;
             audioSource.PlayOneShot(SFX_Error);
 
             btn.GetComponent<Image>().color = Color.white;
@@ -244,5 +279,18 @@ public class ComputerUI : MonoBehaviour
             Destroy(b.gameObject);
         }
         spawnedButtons.Clear();
+    }
+
+    public void ShowScorePanel()
+    {
+        OnFinalScoreShowed?.Invoke();
+        ScorePanel.SetActive(true);
+        SymptomScoreText.text = $"Acertos: {ScoreSymptomCorrect}     Erros: {ScoreSymptomInCorrect}";
+        DiseaseScoreText.text = $"Acertos: {ScoreDiseaseCorrect}     Erros: {ScoreDiseaseInCorrect}";
+        
+        FinalScore = (ScoreSymptomCorrect - ScoreSymptomInCorrect) + (ScoreDiseaseCorrect - ScoreDiseaseInCorrect);
+        if(FinalScore <= 0)
+            FinalScore = 0;
+        FinalScoreText.text = $"{FinalScore}";
     }
 }

@@ -1,13 +1,28 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+public enum PlatformType
+{
+    TOTEM,
+    OCULUS_QUEST,
+    WINDOWS,
+}
+
+[System.Serializable]
+public class PatientList
+{
+    public PatientData PatientData;
+    public DiseaseData DiseaseData;
+    public PatientController PatientController;
+}
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+    public PlatformType PlatformType;
     [SerializeField] private GameObject patientModel;
     [SerializeField] private GameObject computerInfo;
     [SerializeField] private FirstPersonCamera doctorCamera;
@@ -17,9 +32,7 @@ public class GameManager : MonoBehaviour
     public ComputerUI ComputerUI;
     private Coroutine subtitleCoroutine;
 
-    public List<PatientData> patientsList = new List<PatientData>();
-    public List<DiseaseData> diseaseList = new List<DiseaseData>();
-    public List<PatientController> patients = new List<PatientController>();
+    public List<PatientList> PatientList = new List<PatientList>();
     public PatientController currentPatientController;
     public bool OnConsultation = false;
 
@@ -45,28 +58,38 @@ public class GameManager : MonoBehaviour
         Cursor.visible = true;
 
         ComputerUI.OnOptionsDisplayed += OnOpsionsDisplayed;
+        ComputerUI.OnCorrectSymptomSelected += OnCorrectSymptomSelected;
+        ShufflePatientList();
     }
 
     private void OnDestroy()
     {
         ComputerUI.OnOptionsDisplayed -= OnOpsionsDisplayed;
-    }
+        ComputerUI.OnCorrectSymptomSelected -= OnCorrectSymptomSelected;
 
+    }
     private void OnOpsionsDisplayed()
     {
-        StartCoroutine(EnableComputerCameraRoutine());
+        ShowOnlyComputerCamera(delay: 0.5f);
     }
 
-    private IEnumerator EnableComputerCameraRoutine()
+    private void OnCorrectSymptomSelected()
     {
-        yield return new WaitForSeconds(0.5f);
+        EnableComputerCamera(false);
+        EnableDoctorCamera(true);
+    }
+
+    private IEnumerator EnableComputerCameraRoutine(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        ComputerUI.ShowDisplay();
         EnableComputerCamera(true);
         EnableDoctorCamera(false);
     }
 
-    private IEnumerator EnableDoctorCameraRoutine()
+    private IEnumerator EnableDoctorCameraRoutine(float delay)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(delay);
         EnableComputerCamera(false);
         EnableDoctorCamera(true);
     }
@@ -83,17 +106,81 @@ public class GameManager : MonoBehaviour
             DoctorCamera.SetActive(state);
     }
 
-    public void CallNextPatient()
+    public void ShowOnlyComputerCamera(float delay)
     {
-        StartCoroutine(CallNextPatientRoutine());
+        StartCoroutine(EnableComputerCameraRoutine(delay: delay));
     }
 
-    private IEnumerator CallNextPatientRoutine()
+    public void ShowOnlyDoctorCamera(float delay)
+    {
+        StartCoroutine(EnableDoctorCameraRoutine(delay: delay));
+    }
+
+    public void ShufflePatientList()
+    {
+        for (int i = PatientList.Count - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
+            PatientList temporal = PatientList[i];
+            PatientList[i] = PatientList[randomIndex];
+            PatientList[randomIndex] = temporal;
+        }
+    }
+
+    public void CallNextPatient()
+    {
+        if (PlatformType == PlatformType.TOTEM)
+        {
+            StartCoroutine(CallNextPatientTotemRoutine());
+
+        }
+        else if (PlatformType == PlatformType.WINDOWS)
+        {
+            StartCoroutine(CallNextPatientWindowsRoutine());
+
+        }
+    }
+
+    private IEnumerator CallNextPatientTotemRoutine()
     {
         audioSource.PlayOneShot(SFX_NextPatient);
+        if (currentPatientController != null)
+        {
+            currentPatientController.gameObject.SetActive(false);
+            currentPatientController.StopAllCoroutines();
+        }
 
-        EnableComputerCamera(false);
-        EnableDoctorCamera(true);
+        foreach (var patient in PatientList)
+            patient.PatientController.gameObject.SetActive(false);
+
+        yield return new WaitForSeconds(0.1f);
+
+
+        if (currentDiseaseIndex < MaxQuestion)
+        {
+            currentPatientController = PatientList[currentDiseaseIndex].PatientController;
+            currentPatientController.gameObject.SetActive(true);
+            computerInfo.SetActive(true);
+
+            PatientData randomPatient = PatientList[currentDiseaseIndex].PatientData;
+            DiseaseData currentDisease = PatientList[currentDiseaseIndex].DiseaseData;
+            currentPatientController.Setup(randomPatient, currentDisease);
+            ComputerUI.Setup(currentPatientController.currentPatient, currentPatientController.currentDisease);
+            currentDiseaseIndex++;
+            ComputerUI.HideDisplay();
+            ShowOnlyDoctorCamera(delay: 0f);
+        }
+        else
+        {
+            ComputerUI.ShowDisplay();
+            ComputerUI.ShowScorePanel();
+        }
+
+    }
+
+    private IEnumerator CallNextPatientWindowsRoutine()
+    {
+        audioSource.PlayOneShot(SFX_NextPatient);
         UIManager.Instance.FadeIn(duration: 0.5f, null);
         yield return new WaitForSeconds(0.55f);
 
@@ -103,22 +190,22 @@ public class GameManager : MonoBehaviour
             currentPatientController.StopAllCoroutines();
         }
 
-        foreach (var p in patients) p.gameObject.SetActive(false);
+        foreach (var p in PatientList) p.PatientController.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(0.1f);
 
 
         if (currentDiseaseIndex < MaxQuestion)
         {
-            currentPatientController = patients[currentDiseaseIndex];
+            currentPatientController = PatientList[currentDiseaseIndex].PatientController;
             currentPatientController.gameObject.SetActive(true);
             doctorCamera.DisableMovement();
             doctorCamera.LookAtTarget(computer);
             // patientModel.SetActive(true);
             computerInfo.SetActive(true);
 
-            PatientData randomPatient = patientsList[currentDiseaseIndex];
-            DiseaseData currentDisease = diseaseList[currentDiseaseIndex];
+            PatientData randomPatient = PatientList[currentDiseaseIndex].PatientData;
+            DiseaseData currentDisease = PatientList[currentDiseaseIndex].DiseaseData;
             currentPatientController.Setup(randomPatient, currentDisease);
             ComputerUI.Setup(currentPatientController.currentPatient, currentPatientController.currentDisease);
             currentDiseaseIndex++;

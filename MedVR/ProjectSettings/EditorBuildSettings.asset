@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Menu.unity
     guid: d6f89f55a852ba64489dfc55e08fcbc9
   - enabled: 1
-    path: Assets/_Project/Scenes/GameScene.unity
-    guid: 23fe72f7495867e40b7c1cfde892f2f7
+    path: Assets/_Project/Scenes/GameTotem.unity
+    guid: a4419f0a10d125f46a067dec97690cf9
   - enabled: 1
     path: Assets/_Project/Scenes/Gameover.unity
     guid: 7941af27c12c00f4a85d71438af2e3ee

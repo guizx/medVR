@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using UnityEngine.Events;
 
 public class PatientController : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class PatientController : MonoBehaviour
     public float maxMouthOpen = 1f;
     public float mouthSpeedLerp = 10f;
     private Coroutine speechRoutine;
+
+    public UnityEvent OnConsultationStarted;
 
     public void Setup(PatientData patientData, DiseaseData diseaseData)
     {
@@ -42,6 +45,7 @@ public class PatientController : MonoBehaviour
             GameManager.Instance.ComputerUI.BeginConsultation(this);
 
         GetComponent<BoxCollider>().enabled = false;
+        OnConsultationStarted?.Invoke();
     }
 
     public void Speak(int phraseIndex, Action onFinished)

@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659349fb42767a740888a008b7680390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayButton
-  gameSceneName: GameScene
+  gameSceneName: GameTotem
 --- !u!1 &1585944370
 GameObject:
   m_ObjectHideFlags: 0
