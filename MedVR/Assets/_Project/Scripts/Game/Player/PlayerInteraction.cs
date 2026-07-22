@@ -95,17 +95,31 @@ public class PlayerInteraction : MonoBehaviour
         return false;
     }
 
+    // private void TryClickObject()
+    // {
+    //     if(PauseManager.Instance.IsPaused)
+    //         return;
+
+    //     Ray ray = new Ray(transform.position, transform.forward);
+    //     if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactableLayer))
+    //     {
+    //         var btn3D = hit.collider.GetComponent<DiegeticButton>();
+    //         if (btn3D != null) btn3D.Press();
+
+    //         var patient = hit.collider.GetComponent<PatientController>();
+    //         if (patient != null && patient.enabled) patient.StartConsultation();
+    //     }
+    // }
+
     private void TryClickObject()
     {
-        if(PauseManager.Instance.IsPaused)
+        if (PauseManager.Instance.IsPaused)
             return;
 
-        Ray ray = new Ray(transform.position, transform.forward);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactableLayer))
         {
-            var btn3D = hit.collider.GetComponent<DiegeticButton>();
-            if (btn3D != null) btn3D.Press();
-
             var patient = hit.collider.GetComponent<PatientController>();
             if (patient != null && patient.enabled) patient.StartConsultation();
         }

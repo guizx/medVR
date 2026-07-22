@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using MedGames;
+using Nato.StateMachine;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public enum PlatformType
@@ -44,8 +47,40 @@ public class GameManager : MonoBehaviour
 
     public GameObject DoctorCamera;
     public GameObject ComputerCamera;
+    public GameObject CutsceneCamera;
+    public GameObject StartCanvas;
+
+    public UnityEvent OnReset;
+    public UnityEvent OnStart;
+
+    public UniversityDTO CurrentUniversity;
 
 
+    public void Reset()
+    {
+        StartCoroutine(DisablePatients());
+        OnReset?.Invoke();
+        StartCanvas.SetActive(false);
+        CutsceneCamera.SetActive(false);
+        DoctorCamera.SetActive(false);
+        ComputerCamera.SetActive(false);
+        ComputerUI.Reset();
+        currentDiseaseIndex = 0;
+        UITitleScreenState titleScreenState = UIStates.Instance.TitleScreenState;
+        UIStateManager.Instance.StateMachine.TransitionTo(titleScreenState);
+        OnConsultation = false;
+    }
+
+    public void InitializeCutscene()
+    {
+        OnStart?.Invoke();
+        currentDiseaseIndex = 0;
+        OnConsultation = false;
+
+        ShufflePatientList();
+        CutsceneCamera.SetActive(true);
+        StartCoroutine(DisablePatients());
+    }
 
     private void Awake()
     {
@@ -59,7 +94,6 @@ public class GameManager : MonoBehaviour
 
         ComputerUI.OnOptionsDisplayed += OnOpsionsDisplayed;
         ComputerUI.OnCorrectSymptomSelected += OnCorrectSymptomSelected;
-        ShufflePatientList();
     }
 
     private void OnDestroy()
@@ -124,6 +158,18 @@ public class GameManager : MonoBehaviour
             PatientList temporal = PatientList[i];
             PatientList[i] = PatientList[randomIndex];
             PatientList[randomIndex] = temporal;
+        }
+    }
+
+    public IEnumerator DisablePatients()
+    {
+        for (int i = 0; i < PatientList.Count; i++)
+        {
+            PatientList[i].PatientController.Reset();
+            PatientList[i].PatientController.enabled = true;
+
+            yield return new WaitForSeconds(0.1f);
+            PatientList[i].PatientController.gameObject.SetActive(false);
         }
     }
 
@@ -237,5 +283,12 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(duration);
         yield return new WaitForSeconds(1f);
         subtitleText.text = "";
+    }
+
+    public bool IsLastPatient() => currentDiseaseIndex == MaxQuestion;
+
+    public void SetCurrentUniversity(UniversityDTO university)
+    {
+        CurrentUniversity = university;
     }
 }

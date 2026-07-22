@@ -5,14 +5,42 @@ public class PatientBlink : MonoBehaviour
 {
     [SerializeField] private Animator patientAnimator;
 
-    [Header("Configurações")]
     [SerializeField] private float minInterval = 2.0f;
     [SerializeField] private float maxInterval = 5.0f;
     [SerializeField] private float blinkSpeed = 10f;
 
-    private void Start()
+    private Coroutine blinkCoroutine;
+
+    private void OnEnable()
     {
-        StartCoroutine(BlinkRoutine());
+        if (blinkCoroutine != null)
+            StopCoroutine(blinkCoroutine);
+
+        blinkCoroutine = StartCoroutine(BlinkRoutine());
+    }
+
+    private void OnDisable()
+    {
+        if (blinkCoroutine != null)
+        {
+            StopCoroutine(blinkCoroutine);
+            blinkCoroutine = null;
+        }
+
+        if (patientAnimator != null && patientAnimator.runtimeAnimatorController != null)
+        {
+            patientAnimator.SetFloat("eyeBlinkLeft", 0f);
+            patientAnimator.SetFloat("eyeBlinkRight", 0f);
+        }
+    }
+
+    public void Reset()
+    {
+        if (gameObject.activeInHierarchy)
+        {
+            patientAnimator.SetFloat("eyeBlinkLeft", 0f);
+            patientAnimator.SetFloat("eyeBlinkRight", 0f);
+        }
     }
 
     private IEnumerator BlinkRoutine()
@@ -40,13 +68,19 @@ public class PatientBlink : MonoBehaviour
             float t = Mathf.SmoothStep(0, 1, elapsed / duration);
             float currentValue = Mathf.Lerp(startValue, endValue, t);
 
-            patientAnimator.SetFloat("eyeBlinkLeft", currentValue);
-            patientAnimator.SetFloat("eyeBlinkRight", currentValue);
+            if (patientAnimator != null && patientAnimator.runtimeAnimatorController != null)
+            {
+                patientAnimator.SetFloat("eyeBlinkLeft", currentValue);
+                patientAnimator.SetFloat("eyeBlinkRight", currentValue);
+            }
 
             yield return null;
         }
 
-        patientAnimator.SetFloat("eyeBlinkLeft", endValue);
-        patientAnimator.SetFloat("eyeBlinkRight", endValue);
+        if (patientAnimator != null && patientAnimator.runtimeAnimatorController != null)
+        {
+            patientAnimator.SetFloat("eyeBlinkLeft", endValue);
+            patientAnimator.SetFloat("eyeBlinkRight", endValue);
+        }
     }
 }

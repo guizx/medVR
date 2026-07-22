@@ -19,7 +19,10 @@ public class PatientController : MonoBehaviour
     public float mouthSpeedLerp = 10f;
     private Coroutine speechRoutine;
 
+    public BoxCollider BoxColliderObject;
+
     public UnityEvent OnConsultationStarted;
+    public UnityEvent OnReset;
 
     public void Setup(PatientData patientData, DiseaseData diseaseData)
     {
@@ -27,8 +30,20 @@ public class PatientController : MonoBehaviour
         currentDisease = diseaseData;
     }
 
+    private void OnEnable()
+    {
+        BoxColliderObject = GetComponent<BoxCollider>();
+        patientAnimator.SetFloat("ih", 0f);
+
+        if (BoxColliderObject != null)
+        {
+            BoxColliderObject.gameObject.SetActive(true);
+        }
+    }
+
     private void OnDisable()
     {
+        patientAnimator.SetFloat("ih", 0);
         if (speechRoutine != null)
         {
             StopCoroutine(speechRoutine);
@@ -36,7 +51,6 @@ public class PatientController : MonoBehaviour
         }
 
         audioSource.Stop();
-        patientAnimator.SetFloat("ih", 0);
     }
 
     public void StartConsultation()
@@ -50,6 +64,9 @@ public class PatientController : MonoBehaviour
 
     public void Speak(int phraseIndex, Action onFinished)
     {
+        if (!GameManager.Instance.OnConsultation)
+            return;
+
         if (speechRoutine != null)
             StopCoroutine(speechRoutine);
 
@@ -91,5 +108,18 @@ public class PatientController : MonoBehaviour
 
         patientAnimator.SetFloat("ih", 0f);
         onFinished?.Invoke();
+    }
+
+    public void Reset()
+    {
+        if (speechRoutine != null)
+            StopCoroutine(speechRoutine);
+        audioSource.Stop();
+        GameManager.Instance.ShowSubtitle("", 0f);
+        OnReset?.Invoke();
+        GetComponent<BoxCollider>().enabled = true;
+        if (gameObject.activeInHierarchy)
+            patientAnimator.SetFloat("ih", 0f);
+
     }
 }

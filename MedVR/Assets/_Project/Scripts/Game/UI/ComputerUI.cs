@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using MedGames;
+using Nato.StateMachine;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -50,7 +52,24 @@ public class ComputerUI : MonoBehaviour
     public int ScoreDiseaseInCorrect = 0;
     public int FinalScore;
 
+    public Button ShowRankingButton;
+
     public UnityEvent OnFinalScoreShowed;
+
+    public void Reset()
+    {
+        ScoreSymptomCorrect = 0;
+        ScoreSymptomInCorrect = 0;
+        ScoreDiseaseCorrect = 0;
+        ScoreDiseaseInCorrect = 0;
+        FinalScore = 0;
+        ClearAllText();
+        ComputerPanel.SetActive(false);
+        ScorePanel.SetActive(false);
+        ClearAllButtons();
+        ClearAllSymptoms();
+        activePatient = null;
+    }
 
     public void Setup(PatientData patient, DiseaseData disease)
     {
@@ -197,7 +216,6 @@ public class ComputerUI : MonoBehaviour
         {
             ScoreDiseaseCorrect++;
             audioSource.PlayOneShot(SFX_Success);
-            EndingConsultationPanel.SetActive(true);
 
             ClearAllButtons();
             ClearAllText();
@@ -205,6 +223,10 @@ public class ComputerUI : MonoBehaviour
             ConsultationText.text = "Diagnóstico Correto! O paciente agradece.";
             activePatient.enabled = false;
             GameManager.Instance.OnConsultation = false;
+            if (GameManager.Instance.IsLastPatient())
+                StartCoroutine(AutoNextPatientRoutine());
+            else
+                EndingConsultationPanel.SetActive(true);
         }
         else
         {
@@ -214,6 +236,12 @@ public class ComputerUI : MonoBehaviour
             btn.GetComponent<Image>().color = Color.white;
             SetButtonsInteractable(true);
         }
+    }
+
+    private IEnumerator AutoNextPatientRoutine()
+    {
+        yield return new WaitForSeconds(0.15f);
+        GameManager.Instance.CallNextPatient();
     }
 
     private void SetButtonsInteractable(bool isInteractable)
@@ -287,10 +315,24 @@ public class ComputerUI : MonoBehaviour
         ScorePanel.SetActive(true);
         SymptomScoreText.text = $"Acertos: {ScoreSymptomCorrect}     Erros: {ScoreSymptomInCorrect}";
         DiseaseScoreText.text = $"Acertos: {ScoreDiseaseCorrect}     Erros: {ScoreDiseaseInCorrect}";
-        
+
         FinalScore = (ScoreSymptomCorrect - ScoreSymptomInCorrect) + (ScoreDiseaseCorrect - ScoreDiseaseInCorrect);
-        if(FinalScore <= 0)
+        if (FinalScore <= 0)
             FinalScore = 0;
         FinalScoreText.text = $"{FinalScore}";
+
+        if (GameManager.Instance.CurrentUniversity != null)
+            JsonDatabaseManager.Instance.UniversityDatabase.AddScoreAndSave(GameManager.Instance.CurrentUniversity, FinalScore);
+    }
+
+    public void OnClickShowRankingButton()
+    {
+        UIRankingState rankingState = UIStates.Instance.RankingState;
+        UIStateManager.Instance.StateMachine.TransitionTo(rankingState);
+        rankingState.Manager.UIPanels.RankingUI.SetButtonText("Continuar");
+        rankingState.Manager.UIPanels.RankingUI.BackButton.onClick.AddListener(() =>
+        {
+            GameManager.Instance.Reset();
+        });
     }
 }
