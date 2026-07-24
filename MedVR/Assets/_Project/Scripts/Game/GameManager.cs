@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public PlatformType PlatformType;
+    public bool ShuffleCharacters = true;
     [SerializeField] private GameObject patientModel;
     [SerializeField] private GameObject computerInfo;
     [SerializeField] private FirstPersonCamera doctorCamera;
@@ -77,7 +78,8 @@ public class GameManager : MonoBehaviour
         currentDiseaseIndex = 0;
         OnConsultation = false;
 
-        ShufflePatientList();
+        if(ShuffleCharacters)
+            ShufflePatientList();
         CutsceneCamera.SetActive(true);
         StartCoroutine(DisablePatients());
     }
@@ -175,6 +177,7 @@ public class GameManager : MonoBehaviour
 
     public void CallNextPatient()
     {
+        ShowSubtitle(text: "", duration: -1f);
         if (PlatformType == PlatformType.TOTEM)
         {
             StartCoroutine(CallNextPatientTotemRoutine());
@@ -280,9 +283,12 @@ public class GameManager : MonoBehaviour
     private IEnumerator ShowSubtitleRoutine(string text, float duration)
     {
         subtitleText.text = text;
-        yield return new WaitForSeconds(duration);
-        yield return new WaitForSeconds(1f);
-        subtitleText.text = "";
+        if(duration >= 0)
+        {            
+            yield return new WaitForSeconds(duration);
+            yield return new WaitForSeconds(1f);
+            subtitleText.text = "";
+        }
     }
 
     public bool IsLastPatient() => currentDiseaseIndex == MaxQuestion;

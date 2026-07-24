@@ -84,7 +84,7 @@ public class PatientController : MonoBehaviour
         }
 
         float duration = data.PhraseSFX != null ? data.PhraseSFX.length : 2.0f;
-        GameManager.Instance.ShowSubtitle(data.Phrase, duration);
+        GameManager.Instance.ShowSubtitle(data.Phrase, -1f);
 
         float timer = 0f;
         float[] spectrum = new float[256];

@@ -58175,7 +58175,7 @@ MonoBehaviour:
   currentPatientController: {fileID: 0}
   OnConsultation: 0
   currentDiseaseIndex: 0
-  MaxQuestion: 7
+  MaxQuestion: 3
   audioSource: {fileID: 1907622354}
   SFX_NextPatient: {fileID: 8300000, guid: 47b4092cd86edcc499eceadec823790f, type: 3}
   DoctorCamera: {fileID: 1144059379}

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using System;
+using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -13,8 +14,8 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Start()
     {
-        
-            PauseManager.OnPausedChanged += OnPauseChanged;
+
+        PauseManager.OnPausedChanged += OnPauseChanged;
     }
 
     private void OnDestroy()
@@ -30,12 +31,12 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Update()
     {
-        if(Freeze)
+        if (Freeze)
             return;
 
         UpdateCrosshairState();
 
-        if (Input.GetMouseButtonDown(0))
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             if (!TryClickUI())
             {
@@ -64,7 +65,7 @@ public class PlayerInteraction : MonoBehaviour
             Ray ray = new Ray(transform.position, transform.forward);
             if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactableLayer))
             {
-                if (hit.collider.GetComponent<DiegeticButton>() != null || 
+                if (hit.collider.GetComponent<DiegeticButton>() != null ||
                     hit.collider.GetComponent<PatientController>() != null)
                 {
                     isOverInteractable = true;
@@ -116,7 +117,12 @@ public class PlayerInteraction : MonoBehaviour
         if (PauseManager.Instance.IsPaused)
             return;
 
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Mouse.current == null)
+            return;
+
+        Vector2 mousePosition = Mouse.current.position.ReadValue();
+
+        Ray ray = Camera.main.ScreenPointToRay(mousePosition);
 
         if (Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactableLayer))
         {

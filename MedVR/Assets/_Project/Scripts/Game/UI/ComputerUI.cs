@@ -159,6 +159,7 @@ public class ComputerUI : MonoBehaviour
 
         if (opt.IsCorrect)
         {
+            GameManager.Instance.ShowSubtitle("", duration: -1f);
             ScoreSymptomCorrect++;
             audioSource.PlayOneShot(SFX_Success);
 
