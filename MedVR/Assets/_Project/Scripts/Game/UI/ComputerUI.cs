@@ -221,13 +221,23 @@ public class ComputerUI : MonoBehaviour
             ClearAllButtons();
             ClearAllText();
             ComputerPanel.SetActive(false);
-            ConsultationText.text = "Diagnóstico Correto! O paciente agradece.";
+            ConsultationText.text = "Diagnóstico correto! O paciente agradece.";
             activePatient.enabled = false;
             GameManager.Instance.OnConsultation = false;
-            if (GameManager.Instance.IsLastPatient())
-                StartCoroutine(AutoNextPatientRoutine());
+
+            if (GameManager.Instance.MaxQuestion > 1)
+            {
+                if (GameManager.Instance.IsLastPatient())
+                    StartCoroutine(AutoNextPatientRoutine());
+                else
+                    EndingConsultationPanel.SetActive(true);
+            }
             else
+            {
                 EndingConsultationPanel.SetActive(true);
+                if (GameManager.Instance.CurrentUniversity != null)
+                    JsonDatabaseManager.Instance.UniversityDatabase.AddScoreAndSave(GameManager.Instance.CurrentUniversity, points: 1);
+            }
         }
         else
         {
@@ -291,7 +301,7 @@ public class ComputerUI : MonoBehaviour
     private void FinalDiagnosis(bool isCorrect)
     {
         EndingConsultationPanel.SetActive(true);
-        ConsultationText.text = isCorrect ? "Diagnóstico Correto! O paciente agradece." : "Diagnóstico Incorreto. Tente novamente.";
+        ConsultationText.text = isCorrect ? "Diagnóstico correto! O paciente agradece." : "Diagnóstico incorreto. Tente novamente.";
         ClearAllButtons();
         ClearAllText();
         GameManager.Instance.OnConsultation = false;
